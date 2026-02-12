@@ -16,9 +16,11 @@
 }
 
 .search-bar img{
-    height: 55px;
+    height: 46px;
     padding: 9px;
     cursor: pointer;
+    background-color: #ebfffc;
+    border-radius: 50%;
 }
 
 .search-bar input{
@@ -59,16 +61,16 @@
 .weather-data .col{
     display: flex;
     align-items: flex-start;
-    gap: 10px;
+    gap: 9px;
     font-size: 22px;
 }
 
 .weather-data .col span{
     display: block;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .weather-data .col img{
-    width:40px;
+    width:35px;
     margin-top: 10px;
 }
