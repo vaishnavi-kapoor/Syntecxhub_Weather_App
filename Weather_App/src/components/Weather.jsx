@@ -65,10 +65,8 @@ const Weather = () => {
   }
 };
 
-  useEffect(() => {
-    search("New York")
-  }, [])
-
+const[city, setCity] = useState("");
+  
   console.log("weatherData", weatherData);
 
 
